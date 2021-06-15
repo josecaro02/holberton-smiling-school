@@ -1,0 +1,1 @@
+# README holberton smiling school
