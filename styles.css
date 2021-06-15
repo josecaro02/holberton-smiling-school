@@ -13,4 +13,17 @@
 
 .part1 {
     background-image: url('./images/pic_1.jpg');
+    height: 1093px;
+}
+
+.pro-cards {
+    margin-top: 89px;
+}
+.pro h3 {
+    font-size: 18px;
+}
+
+.pro .content-pro {
+    width: 150px;
+    font-size: 16px;
 }
