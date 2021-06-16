@@ -11,6 +11,49 @@
         box-sizing: border-box;
     }
 
+    html {
+        scroll-behavior: smooth;
+        font-size: 62.5%;
+        font-family: sourceSansPro;
+        line-height: 26px;
+        }
+/* PART 1 =============================*/
+
+.navbar-nav {
+    font-size: 1.2rem;
+}
+
+main {
+    padding-top: 148px;
+}
+main .container-fluid .btn {
+    background-color: #C271FF;
+    margin-top: 38px;
+    font-size: 1.4rem;
+}
+
+main .container-fluid h1 {
+    font-size: 120px;
+    margin-top: 0;
+}
+
+.pros-container {
+    margin-top: 168px;
+}
+
+.learn-from {
+    color: white;
+    font-size: 3.2rem;
+}
+.learn-from strong {
+    color: #C271FF;
+}
+
+
+main .container-fluid .row {
+    font-size: 1.6rem;
+}
+
 .part1 {
     background-image: url('./images/pic_1.jpg');
     height: 1093px;
@@ -26,4 +69,16 @@
 .pro .content-pro {
     width: 150px;
     font-size: 16px;
+}
+
+@media (max-width: 576px) {
+    .part1 {
+        height: 1368px;
+        background-position: 30% 0%;
+        background-size: 350%;
+    }
+
+    main .container-fluid h1 {
+        font-size: 61px;
+    }
 }

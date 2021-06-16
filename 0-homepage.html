@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>HomePage - SmileSchool</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -16,11 +15,13 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <div class="part1">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-dark">
+        <header class="header pt-5">
+            <nav class="col-lg-10 navbar navbar-expand-lg navbar-dark m-auto">
                 
                 <a href="#" class="navbar-brand">
                     <img src="images/smile_off.png" alt="" width="35px" height="30">
@@ -34,37 +35,39 @@
                 <div class="collapse navbar-collapse" id="navbarToggle">
 
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="" class="link-danger nav-link">Courses</a>
+                        <li class="nav-item mr-5">
+                            <a href="" class="nav-link text-white"><strong>COURSES</strong></a>
                         </li>
     
-                        <li class="nav-item">
-                            <a href="" class="nav-link link-light">Pricing</a>
+                        <li class="nav-item mr-5">
+                            <a href="" class="nav-link text-white"><strong>PRICING</strong></a>
                         </li>
     
-                        <li class="nav-item">
-                            <a href="" class="nav-link link-light">Logo</a>
+                        <li class="nav-item mr-5">
+                            <a href="" class="nav-link text-white"><strong>LOGIN</strong></a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </header>
+        </header> 
 
         <main>
             <div class="container-fluid">
-                <h1 class="text-white text-center">Get schooled</h1>
+                <h1 class="text-white text-center mb-1">Get schooled</h1>
                 <div class="row d-flex justify-content-center">
-                    <p class="col-sm-6 col-lg-1 text-white text-center">SMILES</p>
-                    <p class="col-sm-6 col-lg-1 text-white text-center">GRIN</p>
-                    <p class="col-sm-6 col-lg-1 text-white text-center">LAUGH</p>
+                    <p class="col-4 col-sm-1 col-lg-1 text-white text-center">SMILES</p>
+                    <p class="col-4 col-sm-1 col-lg-1 text-white text-center">GRIN</p>
+                    <p class="col-4 col-sm-1 col-lg-1 text-white text-center">LAUGH</p>
                 </div>
-                <button class="btn btn-lg btn-primary">REGISTER FOR FREE</button>
+                <div class="col text-center">
+                    <button type="button" class="btn text-white rounded-pill p-3 pl-5 pr-5">REGISTER FOR FREE</button>
+                </div>
             </div>
 
-            <div class="container-fluid">
-                <h3 class=" text-white text-center">Learn from the pros</h3>
-                <div class="row d-flex justify-content-center pro-cards">
-                    <div class="pro col-lg-2">
+            <div class="container-fluid pros-container">
+                <p class="learn-from text-center"><strong>Learn</strong> from the pros</p>
+                <div class="row d-flex justify-content-center pro-cards ml-auto mr-auto">
+                    <div class="pro col-lg-2 col-sm-3 col-6 row justify-content-center">
                         <img class="rounded-circle" src="./images/profile_1.jpg" alt="" width="150" height="150">
                         <div class="content-pro text-white text-center">
                             <h3><strong>Phillip Massey</strong></h3>
@@ -72,7 +75,7 @@
                         </div>
                     </div>
 
-                    <div class="pro col-lg-2">
+                    <div class="pro col-lg-2 col-sm-3 col-6 row justify-content-center">
                         <img class="rounded-circle" src="./images/profile_2.jpg" alt="" width="150" height="150">
 
                         <div class="content-pro text-white text-center">
@@ -81,7 +84,7 @@
                         </div>
                     </div>
 
-                    <div class="pro col-lg-2">
+                    <div class="pro col-lg-2 col-sm-3 col-6 row justify-content-center">
                         <img class="rounded-circle" src="./images/profile_3.jpg" alt="" width="150" height="150">
                         <div class="content-pro text-white text-center">
                             <h3><strong>Bruce Walter</strong></h3>
@@ -89,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="pro col-lg-2">
+                    <div class="pro col-lg-2 col-sm-3 col-6 row justify-content-center">
                         <img class="rounded-circle" src="./images/profile_4.jpg" alt="" width="150" height="150">
                         <div class="content-pro text-white text-center">
                             <h3><strong>Henry Hughes</strong></h3>
