@@ -71,7 +71,6 @@ main .container-fluid h1 {
     font-family: sourceSansPro-bold;
 }
 
-.navbar-expand{-sm|-md|-lg|-xl}
 
 .pros-container {
     margin-top: 168px;
@@ -109,9 +108,27 @@ main .container-fluid .row {
     font-size: 16px;
 }
 
+@media (max-width:768px) {
+    .part1 {
+        height: auto;
+        background-size: cover no-repeat;
+    }
+    .pros-container{
+        margin-top: 50px;
+    }
+
+    main {
+        padding-top: 25px;
+    }
+
+    .pro-cards{
+        margin-top: 20px;
+
+    }
+}
 @media (max-width: 576px) {
     .part1 {
-        height: 1368px;
+        height: 1200px;
         background-position: 30% 0%;
         background-size: 350%;
     }
@@ -122,11 +139,51 @@ main .container-fluid .row {
 
     .navbar .navbar-nav {
         display: inline-block;
-        float: center;
+        float: none;
         vertical-align: top;
       }
       
       .navbar .navbar-collapse {
         text-align: center;
       }
+}
+
+.section-carousel {
+    height: 392px;
+    background-color: #C271FF;
+}
+
+.carousel {
+    padding-top: 110px;
+    font-size: 20px;
+}
+
+.carousel a{
+    padding-top: 117px;
+}
+
+.carousel-item h4{
+    font-family: sourceSansPro-bold;
+}
+
+@media (max-width:768px) {
+
+    .carousel{
+        padding-top: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-carousel {
+        height: 591px;
+    }
+
+    .carousel a{
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .carousel-item {
+        padding-top: 120px;
+    }
 }
