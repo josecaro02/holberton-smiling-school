@@ -39,7 +39,7 @@ This webpage has
 
 ## Responsive
 
-Holberton headphones is responsive, for *phones* with a max. width of 480px, for tables widths between 481px and 767px, and desktops with a width greater than 768px.
+Holberton smiling school is responsive, for *phones* with a max. width of 576px, for tables widths between 577px and 768px, and desktops with a width greater than 769px.
 
 ![](https://i.imgur.com/MtQAG74.png)
 ![](https://i.imgur.com/MtQAG74.png)
