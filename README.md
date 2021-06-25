@@ -17,7 +17,7 @@ This webpage has 7 sections:
 - Lastest videos
 - Footer
 
-##Pricing 
+## Pricing 
 This webpage has 5 sections: 
 - Hero section
 - Pricing table
@@ -25,7 +25,7 @@ This webpage has 5 sections:
 - F.A.Q
 - Footer
 
-##Courses
+## Courses
 This webpage has 
 -Hero section
 -Filter courses form
