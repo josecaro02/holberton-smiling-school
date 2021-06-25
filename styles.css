@@ -91,7 +91,8 @@ main .container-fluid .row {
 }
 
 .part1 {
-    background-image: url('./images/pic_1.jpg');
+    background: #071629 url('./images/pic_1.jpg') right no-repeat;
+    background-position: 35% 0;
     height: 1093px;
 }
 
@@ -111,7 +112,7 @@ main .container-fluid .row {
 @media (max-width:768px) {
     .part1 {
         height: auto;
-        background-size: cover no-repeat;
+        background-size: no-repeat;
     }
     .pros-container{
         margin-top: 50px;
@@ -129,8 +130,8 @@ main .container-fluid .row {
 @media (max-width: 576px) {
     .part1 {
         height: 1200px;
-        background-position: 30% 0%;
-        background-size: 350%;
+        background-size: no-repeat;
+
     }
 
     main .container-fluid h1 {
@@ -147,6 +148,9 @@ main .container-fluid .row {
         text-align: center;
       }
 }
+
+/* SECTION CAROUSSEL
+=============*/
 
 .section-carousel {
     height: 392px;
@@ -187,3 +191,252 @@ main .container-fluid .row {
         padding-top: 120px;
     }
 }
+
+/* MOST POPULAR TUTORIALS
+
+====================*/
+ .section-header {
+    padding-top: 8rem;
+    font-family: sourceSansPro;
+    font-size: 32px;
+}
+
+.section-header span{
+    color: #C271FF;
+}
+@media (min-width:960px) {
+    .popTut .carousel-control-prev{
+        margin-left: -8rem;
+    
+    }
+
+    .popTut .carousel-control-next{
+        margin-right: -8rem;
+    
+    }
+
+}
+
+@media (max-width:576px) {
+    .popTut .carousel-control-prev{
+        margin-left: -3rem;
+    
+    }
+
+    .popTut .carousel-control-next{
+        margin-right: -3rem;
+    
+    }
+}
+
+/* FREE MEMBERSHIP
+===============================*/
+.free-membership .free-item h3{
+    font-size: 18px;
+}
+
+.free-membership .free-item p{
+    font-size: 14px;
+}
+
+.free-membership {
+    background-color: #071629;
+
+}
+
+.free-membership .section-header p{
+    color: white;
+}
+
+.free-membership .section-header span{
+    color: #C271FF;
+}
+
+
+.free-item p {
+    width: 221px;
+}
+
+/* FOOTER
+=========================*/
+
+.footer {
+    background-color: #071629;
+}
+
+.footer .social-item {
+    font-size: 30px;
+  }
+
+ .social-nav {
+     fill: white;
+     list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.trade-mark {
+    font-size: 12;
+    color: #283545;
+}
+
+
+
+
+
+
+
+
+/*************************************************************************************/
+
+/* PRICING 
+======================*/
+
+.pricing {
+    background-image: url('./images/pic_2.jpg');
+}
+
+.pricing-hero{
+    padding-top: 196px;
+}
+
+.pricing-hero h1 {
+    font-size: 32px;
+}
+
+.pricing-hero h2{
+    font-size: 60px ;
+}
+
+@media (max-width: 576px) {
+    .pricing-hero{
+        padding-top: 160px;
+    }    
+}
+
+
+/* PLANS 
+==============================*/
+
+.plans .price button{
+    background-color: #C271FF;
+    font-size: 14px;
+    padding: 13px 36px;
+}
+
+.plans .price h1{
+    font-size: 44px;
+}
+
+.plans .price p{
+    font-size: 14px;
+    color: #9f959d;
+}
+
+.table-plans {
+    font-size: 18px;
+}
+
+.icon-check {
+    width: 28px;
+    color: #82D24F;
+}
+
+.td1, .td2, .td3 {
+    vertical-align: middle;
+}
+
+/* FAQ
+==================================*/
+
+.faq h2 {
+    font-size: 60px;
+}
+.faq h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.faq p{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.56);
+}
+
+
+
+/*************************************************************************************/
+
+/* courses 
+======================*/
+
+.courses {
+    background-image: url('./images/pic_3.jpg');
+    height: 216px;
+}
+
+.courses section{
+    font-family: Coiny;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.courses section span{
+    color: #C271FF;
+}
+
+
+/* filters form
+=========================*/
+
+.filters-form{
+    background-color: #C271FF;
+}
+
+.filters-form label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.filters-form .dropdown .btn:after {
+    color: var(--color-white);
+    right: 15px;
+    top: 50%;
+    position: absolute;
+  }
+
+.filters-form .form-control{
+    background-color: #D195FF;
+    height: 51px;
+    font-size: 23px; 
+}
+
+.filters-form .input-group-text {
+    background-color: #D195FF;
+    font-size: 20px;
+    color: white;
+}
+
+.filters-form .dropdown{
+    background-color: #D195FF;
+    height: 50px;
+}
+
+.filters-form .dropdown a{
+    font-size: 23px;
+}
+
+.card-body h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-body p{
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.50);
+}
+
+.rate-popular-card p{
+    color: #C271FF;
+    font-weight: 600;
+}
+  
