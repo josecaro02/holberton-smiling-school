@@ -1,4 +1,4 @@
-![](https://i.imgur.com/Ur89BOv.png)
+![](https://i.imgur.com/lxzWrtr.png)
 
 # Holberton Smiling School!
 
